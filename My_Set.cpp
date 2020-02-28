@@ -414,6 +414,9 @@ int main()
 						cin>>wish;
 					}while(wish=='y');
 				}
+		default:
+			cout<<" Wrong Choice ";
+			break;
 	}
 	return 0;
 }
